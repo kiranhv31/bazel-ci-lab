@@ -6,7 +6,7 @@ class CalculatorTest : public ::testing::Test {
 protected:
     Calculator calc;
 };
-
+//example
 TEST_F(CalculatorTest, Addition) {
     EXPECT_EQ(calc.Add(3, 4),   7);
     EXPECT_EQ(calc.Add(-5, 5),  0);
